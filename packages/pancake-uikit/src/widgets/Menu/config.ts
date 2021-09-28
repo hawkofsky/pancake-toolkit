@@ -20,97 +20,79 @@ export const status = {
 
 export const links: MenuItemsType[] = [
   {
-    label: "Trade",
-    href: "/swap",
+    label: "Starter Pack",
+    href: "/",
     icon: "Swap",
-    items: [
-      {
-        label: "Exchange",
-        href: "https://exchange.pancakeswap.finance",
-      },
-      {
-        label: "Liquidity",
-        href: "https://exchange.pancakeswap.finance/#/pool",
-      },
-    ],
   },
   {
-    label: "Earn",
-    href: "/",
+    label: "Marketplace",
+    href: "/marketplace",
     icon: "Earn",
-    items: [
-      {
-        label: "Earn",
-        href: "/",
-      },
-      {
-        label: "Yield Farms",
-        href: "/",
-      },
-      {
-        label: "Syrup pools",
-        href: "/",
-      },
-    ],
   },
   {
-    label: "Win",
-    href: "/",
+    label: "Inventory",
+    href: "/my-zoans",
     icon: "Trophy",
     items: [
       {
-        label: "Win",
-        href: "/",
+        label: "My Zoans",
+        href: "/my-zoans",
       },
       {
-        label: "Predictions",
-        href: "/",
-      },
-      {
-        label: "Lottery",
-        href: "/",
+        label: "My Items",
+        href: "/my-stones",
       },
     ],
   },
   {
-    label: "",
-    href: "/",
-    icon: "More",
-    items: [
-      {
-        label: "Info & Analytics",
-        href: "/",
-      },
-      {
-        label: "IFO Token Sales",
-        href: "/",
-        status: status.SOON,
-      },
-      {
-        type: DropdownMenuItemType.DIVIDER,
-      },
-      {
-        label: "NFT Collectibles",
-        href: "/",
-      },
-      {
-        label: "Team Leaderboard",
-        href: "/",
-      },
-      {
-        type: DropdownMenuItemType.DIVIDER,
-      },
-      {
-        label: "Blog",
-        href: "/",
-      },
-      {
-        label: "Docs & Guides",
-        href: "/",
-        type: DropdownMenuItemType.EXTERNAL_LINK,
-      },
-    ],
+    label: "Merge Zoans",
+    href: "/merge",
+    icon: "Earn",
   },
+  {
+    label: "Fight Monster",
+    href: "/",
+    icon: "fight-monster",
+  },
+  // {
+  //   label: "",
+  //   href: "/",
+  //   icon: "More",
+  //   items: [
+  //     {
+  //       label: "Info & Analytics",
+  //       href: "/",
+  //     },
+  //     {
+  //       label: "IFO Token Sales",
+  //       href: "/",
+  //       status: status.SOON,
+  //     },
+  //     {
+  //       type: DropdownMenuItemType.DIVIDER,
+  //     },
+  //     {
+  //       label: "NFT Collectibles",
+  //       href: "/",
+  //     },
+  //     {
+  //       label: "Team Leaderboard",
+  //       href: "/",
+  //     },
+  //     {
+  //       type: DropdownMenuItemType.DIVIDER,
+  //     },
+  //     {
+  //       label: "Blog",
+  //       href: "/",
+  //     },
+  //     {
+  //       label: "Docs & Guides",
+  //       href: "/",
+  //       type: DropdownMenuItemType.EXTERNAL_LINK,
+  //     },
+  //   ],
+  // },
 ];
 
 export const userMenulinks: DropdownMenuItems[] = [
